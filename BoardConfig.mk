@@ -16,15 +16,14 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 TARGET_BOOTLOADER_BOARD_NAME := nicepool
 
 ## DTB
-TARGET_DTB_NAME := g12a_s905x2_u215_fbx8am
-TARGET_DTBO_NAME := fbx8am_overlay
+TARGET_DTB_NAME := g12a_s905x2_u215_nicepool
 
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
     dhd-driver/bcmdhd.101.10.361.x
 
 ## Partitions
-BOARD_SUPER_PARTITION_SIZE := 2084569088
+BOARD_SUPER_PARTITION_SIZE := 2692743168
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
